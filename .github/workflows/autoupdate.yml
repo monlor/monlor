@@ -6,6 +6,8 @@ name: AutoUpdate
 on:
   schedule:
     - cron: '40 23 * * *'
+  push:
+    branches: [ main ]
 
 jobs:
   build:
