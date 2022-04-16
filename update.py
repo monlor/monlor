@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*
 import requests
 import xml.etree.ElementTree as ET
-import time
 import datetime
 
 with open('README.md', 'w') as f:
@@ -22,9 +21,9 @@ with open('README.md', 'w') as f:
 
 ''')
     ret = requests.get('https://www.monlor.com/feed/')
-    ret.encoding='utf-8'
+    ret.encoding = 'utf-8'
     feed = ret.text
-    root = ET.fromstring(feed)
+    root = ET.fromstring(ret.text)
     for item in root.findall('.//item'):
         text = item.find("title").text
         url = item.find("link").text
