@@ -36,5 +36,21 @@ jobs:
         git config --global user.email "me@monlor.com"
         git config --global user.name "monlor"
         git add README.md
-        git commit -m "Github Action Auto Updated" || exit 0
-        git push
+        if git commit -m "Github Action Auto Updated"; then
+          echo "updated=true" >> $GITHUB_ENV
+          git push
+        else
+          echo "updated=false" >> $GITHUB_ENV
+        fi
+    - name: Notification
+      uses: monlor/bark-action@v2
+      with:
+        host: ${{ secrets.BARK_HOST}} # not required
+        key: ${{ secrets.BARK_KEY }}   # Your secret key
+        title: Github Actions
+        body: '${{ env.GITHUB_REPOSITORY }}更新成功！'
+        isArchive: 1
+        url: 'github://github.com/${{ env.GITHUB_REPOSITORY }}'
+        group: Github
+        icon: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+
