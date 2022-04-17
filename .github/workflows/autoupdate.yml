@@ -44,7 +44,7 @@ jobs:
         fi
     - name: Notification
       uses: monlor/bark-action@v2
-      if: env.updated
+      if: ${{ env.updated == 'true' }} 
       with:
         host: ${{ secrets.BARK_HOST}} # not required
         key: ${{ secrets.BARK_KEY }}   # Your secret key
