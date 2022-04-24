@@ -24,7 +24,7 @@ with open('README.md', 'w') as f:
     ret.encoding = 'utf-8'
     feed = ret.text
     root = ET.fromstring(ret.text)
-    for item in root.findall('.//item'):
+    for item in root.findall('.//item')[:5]:
         text = item.find("title").text
         url = item.find("link").text
         published = item.find("pubDate").text
