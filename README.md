@@ -3,7 +3,8 @@
 
 <p align="center">
   <a href="https://www.monlor.com">Blog</a> •
-  <a href="https://github.com/monlor">GitHub</a>
+  <a href="https://github.com/monlor">GitHub</a> •
+  <a href="https://linktr.ee/monlor">Linktree</a>
 </p>
 
 ### Github Statistics
