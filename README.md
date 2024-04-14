@@ -14,7 +14,7 @@
 
 ### Latest blog posts
 
-- 2022-04-15 [小米路由器MIXBOX工具箱公测版本发布，理论支持小米路由器全型号](https://www.monlor.com/archives/59/)
+- 2024-04-13 [我开始玩TG频道和小红书了](https://www.monlor.com/archives/127/)
 - 2023-09-18 [颠覆传统开发方式，拥抱 Coder](https://www.monlor.com/archives/117/)
 - 2023-06-08 [使用 Docker 快速启动 Frp 服务端，在终端一键启动穿透服务，懒人专用](https://www.monlor.com/archives/110/)
 - 2022-05-07 [群晖挂载网络云盘，配合Plex等流媒体工具在线播放](https://www.monlor.com/archives/99/)
