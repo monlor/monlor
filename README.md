@@ -14,10 +14,10 @@
 
 ### Latest blog posts
 
+- 2024-04-14 [我做了一个快速查询私有化部署服务的AI机器人](https://www.monlor.com/archives/128/)
 - 2024-04-13 [我开始玩TG频道和小红书了](https://www.monlor.com/archives/127/)
 - 2023-09-18 [颠覆传统开发方式，拥抱 Coder](https://www.monlor.com/archives/117/)
 - 2023-06-08 [使用 Docker 快速启动 Frp 服务端，在终端一键启动穿透服务，懒人专用](https://www.monlor.com/archives/110/)
 - 2022-05-07 [群晖挂载网络云盘，配合Plex等流媒体工具在线播放](https://www.monlor.com/archives/99/)
-- 2022-04-23 [Typecho 博客 CDN 加速，使用 GitHub Actions 实现 CDN 证书自动更新](https://www.monlor.com/archives/95/)
 
 [>>> More blog posts](https://www.monlor.com/archive.html)
