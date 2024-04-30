@@ -14,10 +14,10 @@
 
 ### Latest blog posts
 
+- 2024-04-29 [不管你炒不炒币，你都会需要一个Nexo交易所](https://www.monlor.com/archives/136/)
 - 2024-04-28 [分享我写的一款TG机器人，支持查汇率，查流媒体、AppStore价格，查卡BIN](https://www.monlor.com/archives/135/)
 - 2024-04-27 [最强数字银行iFast介绍及开户攻略](https://www.monlor.com/archives/134/)
 - 2024-04-23 [五张Wise卡都凑齐了，来聊聊怎么申请Wise卡吧](https://www.monlor.com/archives/133/)
 - 2024-04-23 [Wise介绍及开户攻略](https://www.monlor.com/archives/132/)
-- 2024-04-18 [聊聊美股投资有哪些方式](https://www.monlor.com/archives/131/)
 
 [>>> More blog posts](https://www.monlor.com/archive.html)
