@@ -43,16 +43,3 @@ jobs:
         else
           echo "updated=false" >> $GITHUB_ENV
         fi
-    - name: Notification
-      uses: monlor/bark-action@v2
-      if: ${{ env.updated == 'true' }} 
-      with:
-        host: ${{ secrets.BARK_HOST}} # not required
-        key: ${{ secrets.BARK_KEY }}   # Your secret key
-        title: Github Actions
-        body: '${{ github.repository }}更新成功！'
-        isArchive: 1
-        url: 'github://github.com/${{ github.repository }}'
-        group: Github
-        icon: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-
