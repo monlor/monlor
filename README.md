@@ -9,8 +9,8 @@
 
 ### Github Statistics
 
-![Stats](https://github-readme-stats.vercel.app/api?username=monlor&show_icons=true&layout=compact&count_private=true&hide_title=true&theme=default&)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=monlor&layout=compact&count_private=true&theme=default&hide=css,html,javascript)
+![Stats](https://github-readme-stats.monlor.com/api?username=monlor&show_icons=true&layout=compact&count_private=true&hide_title=true&theme=default&)
+![Lang](https://github-readme-stats.monlor.com/api/top-langs/?username=monlor&layout=compact&count_private=true&theme=default&hide=css,html,javascript)
 
 ### Latest blog posts
 
