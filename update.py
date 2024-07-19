@@ -10,7 +10,7 @@ with open('README.md', 'w') as f:
 <p align="center">
   <a href="https://www.monlor.com">Blog</a> •
   <a href="https://github.com/monlor">GitHub</a> •
-  <a href="https://linktr.ee/monlor">Linktree</a>
+  <a href="https://link.monlor.com">Links</a>
 </p>
 
 ### Github Statistics
